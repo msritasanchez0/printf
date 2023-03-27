@@ -14,3 +14,11 @@ All files end with a new line
 The code will be compiled this way:
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 
+#### Specifiers
+Specifier characters at the end define the type and the interpretation of its corresponding argument:
+|Specifier |Output|
+--- | ---|
+|c	|character|
+|s	|string|
+|d or i	|Signed integer|
+|%	|%|
