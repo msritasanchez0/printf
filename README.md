@@ -2,15 +2,15 @@
 
 ## Our first group project, we're replicating the printf() fucntion from the C Standard Library
 
-###Introduction
+### Introduction
 Produces output to stdout according to a format described below similar to the printf() function.
 
-Specifications
+### Specifications
 No allowed to use global variable
 No more than 5 functions per file
 All files end with a new line
 
-Compilation
+### Compilation
 The code will be compiled this way:
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 
