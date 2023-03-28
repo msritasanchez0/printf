@@ -9,11 +9,10 @@
  * Return: count of chars.
  */
 
-int print_char(va_list args)
+int printf_char(va_list args, int printed)
 {
-	char c = va_arg(args, int);
+	int character = va_arg(args, int);
 
-	_putchar(c);
-
-	return (1);
+	_putchar(character);
+	return (printed + 1);
 }

@@ -4,23 +4,17 @@
  * @args: Arguments
  * Return: Lenght of the output
  */
-int print_rev_string(va_list args)
+
+int printf_string(va_list args, int printed)
 {
+	char *string = va_arg(args, char *);
 
-	int count_fun = 0, i = 0;
-	char *s = va_arg(args, char *);
-
-	if (!s)
-		s = "(null)";
-	while (s[i])
+	while (*string != '\0')
 	{
-		i++;
+		_putchar(*string);
+		printed++;
+		string++;
 	}
-	while (i >= 0)
-	{
-		count_fun += _putchar(s[i]);
-		i--;
-	}
-	count_fun--;
-	return (count_fun);
+	return (printed);
 }
+
