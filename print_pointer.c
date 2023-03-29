@@ -9,7 +9,7 @@
  * Return: printed charcaters
  */
 
-int printf_pointer(va_list args, int printed)
+int print_pointer(va_list args, int printed)
 {
 	void *ptr = va_arg(args, void*);
 	unsigned long num = (unsigned long) ptr;
