@@ -44,6 +44,7 @@ int printf_37(void);
 int printf_char(va_list val);
 int printf_string(va_list val);
 int _putchar(char c);
+int printf_pointer(va_list args, int printed);
 int _printf(const char *format, ...);
 
 #endif
