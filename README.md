@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-0x11. C - printf
+# 0x11. C - printf
 
 Our first group project, we're replicating the printf() fucntion from the C Standard Library
 
