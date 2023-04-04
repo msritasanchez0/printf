@@ -48,9 +48,13 @@ b
 ##### Handle the following conversion specifiers:
 
 u
+
 x
+
 o
+
 x
+
 X
 
 #### 4.Nothing in fine print is ever good news
@@ -60,6 +64,7 @@ X
 ##### Handle the following custom conversion specifier
 
 S : prints the string.
+
 Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, followed by the ASCII code value in hexadecimal (upper case - always 2 characters).
 How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
 
@@ -70,14 +75,18 @@ How is the world ruled and led to war? Diplomats lie to journalists and believe 
 ##### Handle the following flag characters for non-custom conversion specifiers:
 
 ´+´
+
 space
+
 ´#´
 
 #### 8.Sarcasm is lost in print
 ##### Handle the following length modifiers for non-custom conversion specifiers:
 
 l
+
 h 
+
 Conversion specifiers to handle: d, i, u, o, x, X
 
 #### 9.Print some money and give it to us for the rain forests
