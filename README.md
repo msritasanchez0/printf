@@ -86,5 +86,7 @@ R: prints the rot13'ed string
 All the above options work well together.
 
 Authors ©
+
 Rita Chepngeno
+
 Justin Mwaipe
